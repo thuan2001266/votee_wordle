@@ -54,7 +54,6 @@ const playWordle = async (callback, extra) => {
     }
     guessWord = words[0];
     if (words.length == 1) {
-      
       console.log(`Found the word after ${i+1} attempt(s): ${guessWord}`);
       i = 6;
     }
